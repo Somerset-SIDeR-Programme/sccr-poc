@@ -1,2 +1,2 @@
 # sccr-poc
-CareConnect endpoints fro proof of concept app using anonymised, real data
+CareConnect endpoints for proof of concept app using anonymised, real data
