@@ -1,0 +1,12 @@
+{
+  "name": "sccr-poc",
+  "version": "0.0.8",
+  "scripts": {
+    "start": "node api"
+  },
+  "dependencies": {
+    "@blackpear/cd-eb": "0.0.8",
+    "config": "^3.0.1",
+    "express": "^4.16.4"
+  }
+}

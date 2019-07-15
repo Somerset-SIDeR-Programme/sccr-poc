@@ -1,0 +1,102 @@
+{
+  "resourceType": "Bundle",
+  "type": "searchset",
+  "total": 2,
+  "link": [
+    {
+      "relation": "self",
+      "url": "https://sider.ydh.nhs.uk/3_0_1/MedicationStatement?patient=9449307393"
+    }
+  ],
+  "entry": [
+    {
+      "fullUrl": "https://sider.ydh.nhs.uk/3_0_1/MedicationStatement/1",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "1",
+        "meta": {
+          "lastUpdated": "2019-03-12T14:14:33.809+00:00",
+          "profile": [
+            "https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-MedicationStatement-1"
+          ]
+        },
+        "status": "active",
+        "medicationReference": {
+          "reference": "#1"
+        },
+        "subject": {
+          "reference": "https://sider.ydh.nhs.uk/3_0_1/Patient/9449307393"
+        },
+        "taken": "unk",
+        "dosage": [
+          {
+            "text": "2puffs as required – max 8 puffs in 24hours"
+          }
+        ],
+        "contained": [
+          {
+            "resourceType": "Medication",
+            "id": "1",
+            "meta": {
+              "lastUpdated": "2018-09-23T08:52:11.525+00:00",
+              "profile": [
+                "https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Medication-1"
+              ]
+            },
+            "code": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "display": "Easyhaler Salbutamol sulfate 100micrograms/dose dry powder inhaler (Orion Pharma (UK) Ltd) 200 dose",
+                  "code": "9205311000001107"
+                }
+              ],
+              "text": "EASYHALER SALBUTAMOL, dry powder inhaler,100micrograms/actuation,200 dose inhaler [1 X 200 dose inhaler]"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://sider.ydh.nhs.uk/3_0_1/MedicationStatement/2",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "2",
+        "meta": {
+          "lastUpdated": "2019-03-12T14:14:33.809+00:00",
+          "profile": [
+            "https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-MedicationStatement-1"
+          ]
+        },
+        "status": "active",
+        "medicationReference": {
+          "reference": "#2"
+        },
+        "subject": {
+          "reference": "https://sider.ydh.nhs.uk/3_0_1/Patient/9449307393"
+        },
+        "taken": "unk",
+        "dosage": [
+          {
+            "text": "1 puff od"
+          }
+        ],
+        "contained": [
+          {
+            "resourceType": "Medication",
+            "id": "2",
+            "meta": {
+              "lastUpdated": "2018-09-23T08:52:11.525+00:00",
+              "profile": [
+                "https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Medication-1"
+              ]
+            },
+            "code": {
+              "text": "Braltus Inhaler"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

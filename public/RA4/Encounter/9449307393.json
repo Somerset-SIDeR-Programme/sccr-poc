@@ -1,0 +1,122 @@
+{
+  "resourceType": "Bundle",
+  "type": "searchset",
+  "total": 3,
+  "link": [
+    {
+      "relation": "self",
+      "url": "https://sider.ydh.nhs.uk/3_0_1/Encounter?patient=9449307393"
+    }
+  ],
+  "entry": [
+    {
+      "fullUrl": "https://sider.ydh.nhs.uk/3_0_1/Encounter/9999-9999-5",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "9999-9999-5",
+        "meta": {
+          "lastUpdated": "2018-08-04T16:30:00+00:00",
+          "profile": [
+            "https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Encounter-1"
+          ]
+        },
+        "status": "finished",
+        "class": {
+          "display": "outpatient"
+        },
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "https://fhir.nhs.uk/STU3/CodeSystem/DCH-Specialty-1",
+                "code": "101",
+                "display": "UROLOGY"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "https://sider.ydh.nhs.uk/3_0_1/Patient/9449307393"
+        },
+        "period": {
+          "start": "2018-08-04T16:00:00+00:00",
+          "end": "2018-08-04T16:30:00+00:00"
+        }
+      }
+    },
+    {
+      "fullUrl": "https://sider.ydh.nhs.uk/3_0_1/Encounter/9999-9999-6",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "9999-9999-6",
+        "meta": {
+          "lastUpdated": "2019-02-22T09:23:05+00:00",
+          "profile": [
+            "https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Encounter-1"
+          ]
+        },
+        "status": "finished",
+        "class": {
+          "system": "http://hl7.org/fhir/v3/ActEncounterCode",
+          "code": "EMER",          
+          "display": "emergency"
+        },
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "https://fhir.nhs.uk/STU3/CodeSystem/DCH-Specialty-1",
+                "code": "180",
+                "display": "ACCIDENT & EMERGENCY"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "https://sider.ydh.nhs.uk/3_0_1/Patient/9449307393"
+        },
+        "period": {
+          "start": "2019-02-22T05:54:54+00:00",
+          "end": "2019-02-22T09:23:05+00:00"
+        }
+      }
+    },
+    {
+      "fullUrl": "https://sider.ydh.nhs.uk/3_0_1/Encounter/9999-9999-7",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "9999-9999-7",
+        "meta": {
+          "lastUpdated": "2019-02-27T23:54:27+00:00",
+          "profile": [
+            "https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Encounter-1"
+          ]
+        },
+        "status": "finished",
+        "class": {
+          "system": "http://hl7.org/fhir/v3/ActEncounterCode",
+          "code": "IMP",
+          "display": "inpatient"
+        },
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "https://fhir.nhs.uk/STU3/CodeSystem/DCH-Specialty-1",
+                "code": "101",
+                "display": "UROLOGY"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "https://sider.ydh.nhs.uk/3_0_1/Patient/9449307393"
+        },
+        "period": {
+          "start": "2019-02-27T08:13:27+00:00",
+          "end": "2019-02-27T23:54:27+00:00"
+        }
+      }
+    }
+  ]
+}

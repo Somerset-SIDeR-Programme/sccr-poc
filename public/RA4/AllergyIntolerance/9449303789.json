@@ -1,0 +1,35 @@
+{
+  "resourceType": "Bundle",
+  "type": "searchset",
+  "total": 1,
+  "link": [
+    {
+      "relation": "self",
+      "url": "https://sider.ydh.nhs.uk/3_0_1/AllergyIntolerance?patient=9449303789"
+    }
+  ],
+  "entry": [
+    {
+      "fullUrl": "https://sider.ydh.nhs.uk/3_0_1/AllergyIntolerance/4",
+      "resource": {
+        "resourceType": "AllergyIntolerance",
+        "id": "4",
+        "meta": {
+          "lastUpdated": "2018-09-14T08:39:57.876+00:00",
+          "profile": [
+            "https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-AllergyIntolerance-1"
+          ]
+        },
+        "clinicalStatus": "inactive",
+        "verificationStatus": "confirmed",
+        "code": {
+          "text": "No Known Allergies"
+        },
+        "patient": {
+          "reference": "https://sider.ydh.nhs.uk/3_0_1/Patient/9449303789"
+        },
+        "assertedDate": "2017-10-18T00:00:00+00:00"
+      }
+    }
+  ]
+}

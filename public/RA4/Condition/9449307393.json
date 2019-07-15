@@ -1,0 +1,74 @@
+{
+  "resourceType": "Bundle",
+  "type": "searchset",
+  "total": 3,
+  "link": [
+    {
+      "relation": "self",
+      "url": "https://sider.ydh.nhs.uk/3_0_1/Condition?patient=9449307393"
+    }
+  ],
+  "entry": [
+    {
+      "fullUrl": "https://sider.ydh.nhs.uk/3_0_1/Condition/1",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "1",
+        "meta": {
+          "lastUpdated": "2018-12-06T13:43:58.403+00:00",
+          "profile": [
+            "https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Condition-1"
+          ]
+        },
+        "clinicalStatus": "active",
+        "code": {
+          "text": "Chronic obstructive lung disease (disorder)"
+        },
+        "subject": {
+          "reference": "https://sider.ydh.nhs.uk/3_0_1/Patient/9449307393"
+        },
+        "assertedDate": "2018-11-29T14:16:55+00:00"
+      }
+    },
+    {
+      "fullUrl": "https://sider.ydh.nhs.uk/3_0_1/Condition/2",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "2",
+        "meta": {
+          "lastUpdated": "2018-12-06T13:43:58.403+00:00",
+          "profile": [
+            "https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Condition-1"
+          ]
+        },
+        "clinicalStatus": "resolved",
+        "code": {
+          "text": "Rupture of appendix (disorder)"
+        },
+        "subject": {
+          "reference": "https://sider.ydh.nhs.uk/3_0_1/Patient/9449307393"
+        }
+      }
+    },
+    {
+      "fullUrl": "https://sider.ydh.nhs.uk/3_0_1/Condition/3",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "3",
+        "meta": {
+          "lastUpdated": "2018-12-06T13:43:58.403+00:00",
+          "profile": [
+            "https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Condition-1"
+          ]
+        },
+        "clinicalStatus": "resolved",
+        "code": {
+          "text": "Fracture of radius AND ulna (disorder)"
+        },
+        "subject": {
+          "reference": "https://sider.ydh.nhs.uk/3_0_1/Patient/9449307393"
+        }
+      }
+    }
+  ]
+}
